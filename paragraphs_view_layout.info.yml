@@ -1,0 +1,8 @@
+name: paragraphs view layout
+type: module
+description: permet d&#039;avoir un affichage pour chaque type de layout.
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - paragraphs

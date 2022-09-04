@@ -1,0 +1,16 @@
+paragraphs_view_layout.example:
+  path: '/paragraphs-view-layout/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\paragraphs_view_layout\Controller\ParagraphsViewLayoutController::build'
+  requirements:
+    _permission: 'access content'
+    
+    
+entity.paragraph.canonical:
+  path: '/paragraph/{paragraph}'
+  defaults:
+    _title: 'Paragraph'
+    _controller: '\Drupal\paragraphs_view_layout\Controller\ParagraphsEditLayoutController::build'
+  requirements:
+    _permission: 'access content'

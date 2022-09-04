@@ -1,0 +1,6 @@
+services:
+  paragraphs_view_layout.param_converter:
+    class: Drupal\paragraphs_view_layout\Routing\ParagraphsEditLayoutParamConverter
+    arguments: ['@entity_type.manager']
+    tags:
+      - { name: paramconverter, priority: 10 }
