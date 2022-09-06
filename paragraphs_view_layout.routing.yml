@@ -14,3 +14,12 @@ entity.paragraph.canonical:
     _controller: '\Drupal\paragraphs_view_layout\Controller\ParagraphsEditLayoutController::build'
   requirements:
     _permission: 'access content'
+    
+    
+paragraphs_view_layout.edit.view:
+  path: '/paragraphs_view_layout/edit/view'
+  defaults:
+    _form: '\Drupal\paragraphs_view_layout\Form\ParagraphsViewLayoutEditStatique'
+    _title: 'LayoutEnteteForm'
+  requirements:
+    _role: 'administrator'
