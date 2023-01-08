@@ -27,14 +27,14 @@ use Drupal\Core\Plugin\PluginFormInterface;
  * delta = 1
  * plugin_id = formatage_models_header1
  */
-class ParagraphsViewLayoutEditStatique extends FormBase {
+// class ParagraphsViewLayoutEditStatique extends FormBase {
 
-  /**
-   *
-   * {@inheritdoc}
-   */
-  public function getFormId() {
-    return 'layout_entete_form_v2';
-  }
+//   /**
+//    *
+//    * {@inheritdoc}
+//    */
+//   public function getFormId() {
+//     return 'layout_entete_form_v2';
+//   }
 
-}
+// }
